@@ -31,11 +31,18 @@ h1 {
 .header {
     display: flex;
     width: 100%;
-    background-color:#fdf4a2
+    background-color: #fdf4a2
 }
 
-.header_container {
-    width: 1000px;
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 15px;
+    font-size: 1rem;
 }
 
 .header_photo {
@@ -48,25 +55,23 @@ h1 {
     border-radius: 90% 50%;
 }
 
-.header-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
 .footer {
     background-color: #f3ebae;
     padding: 30px;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
-}
-.footer-container {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
 }
+
+.footer-container {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 .rss_lnk {
     width: 130px;
     height: 30px;
