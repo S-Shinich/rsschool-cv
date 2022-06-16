@@ -28,7 +28,7 @@
         <div class="container">
             <section class="section" id="profile">
                 <div class="header_photo">
-                    <img src="assets/img/photo.png" class="img_avatar" alt="Owl avatar" class="header_image">
+                    <img src="assets/img/photo.png" class="img_avatar" alt="Owl avatar">
                 </div>
 
                 <h1 class="section-title main-title">
@@ -70,17 +70,17 @@
                 <h2 class="section-title">Code Example</h2>
                 <pre class="pre">
               <code>
-                    <ls_pers_srvc>-pernr = lv_pernr.
-                    <ls_pers_srvc>-langu = langu.
+                &lt;ls_pers_srvc&gt;-pernr = lv_pernr.
+                &lt;ls_pers_srvc&gt;-langu = langu.
                   
                     CALL METHOD zcl_hr_utility=>get_full_name
                       EXPORTING
                         pernr = lv_pernr
                         langu = langu
                       IMPORTING
-                        vorna = <ls_pers_srvc>-vorna
-                        nachn = <ls_pers_srvc>-nachn
-                        name2 = <ls_pers_srvc>-name2.                
+                        vorna = &lt;ls_pers_srvc&gt;-vorna
+                        nachn = &lt;ls_pers_srvc&gt;-nachn
+                        name2 = &lt;ls_pers_srvc&gt;-name2                
               </code>
             </pre>
             </section>
